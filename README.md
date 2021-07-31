@@ -1,1 +1,1 @@
-# naturecoin
+# naturecoin repo
