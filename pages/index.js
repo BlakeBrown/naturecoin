@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -17,7 +17,7 @@ export default function Home() {
               social inequality and climate change
             </i>
           </p>
-          <p className="text-align-center">Blakelock Brown • August 9, 2021</p>
+          <p className="text-align-center">Blakelock Brown • August 10, 2021</p>
           <img src="solarpunk/DGJQT92XoAQ_d0N.jpeg" style={{ width: "100%" }} />
           <h2>Introduction</h2>
           <p>
@@ -179,10 +179,10 @@ export default function Home() {
             </a>
             , or B corporation for short. The difference between a traditional
             for-profit C corporation and a B corporation is subtle, yet
-            powerful. A B corporation allows a business to include social and
-            environmental goals in addition to profit as it's legally defined
-            goals. This means that B corporations cannot be sued by their
-            shareholders for pursuing activities outside of financial
+            powerful. A B corporation allows a business to pursue social and
+            environmental initiatives in addition to profit as it's legally
+            defined goals. This means that B corporations cannot be sued by
+            their shareholders for pursuing activities outside of financial
             maximization. In other words, it completely changes the game. If you
             have time I'd encourage you to watch this{" "}
             <a href="https://www.youtube.com/watch?v=mGnz-w9p5FU&ab_channel=TEDxTalks">
@@ -290,17 +290,16 @@ export default function Home() {
             for years. YEARS! We intend to replace the current system with one
             that's honest. Our inflation will be split between two digital
             wallets, one which will fund development of the project itself and
-            the other for a novel philanthropic effort which I have yet to
-            introduce.
+            the other for a novel philanthropic effort.
           </p>
           <h2>A decentralized hive mind to fight climate change</h2>
           <p>
             Climate change is pervasive. There is no silver bullet that will
             save us from the severe natural disasters that are already here, and
-            are growing more frequent and more severe. We cannot place all of
-            the blame on fossil fuel companies. Afterall, we are the ones who
-            drive cars, consume plastics, use electricity and heat our buildings
-            creating a demand that is never satisfied.
+            which are growing more frequent and more severe. We cannot place all
+            of the blame on the fossil fuel companies. Afterall, we are the ones
+            who drive cars, consume plastics, use electricity and heat our
+            buildings creating a hungry demand that is never satiated.
           </p>
           <p>
             If we truly want to stop the climate crisis, it's going to require
@@ -339,17 +338,24 @@ export default function Home() {
             the treasury through the inflation of Nature Coin, we ensure that
             growth of the economy is directly correlated to an increase in
             funding for environmental projects. The bigger we get, the more
-            positive impact we can have in the world.
+            positive impact we will have in the world.
           </p>
           <p>
             Consider again the size of the New York Stock Exchange, US$30
             trillion in assets. Now imagine hypothetically that Nature Coin
-            eventually reached the same scale. With an annual inflation rate of
-            1% rate we would have US$300 billion, per year, to put towards
-            projects of the community's choice. I believe in 30 years time, by
-            2050, we can make it happen. Tesla took less than 20 years to be
-            worth more than every large car company in the world, combined.
-            Never underestimate the speed of new technology.
+            reaches the same size. With an annual inflation rate of 1% rate we
+            would have US$300 billion, per year, to put towards projects of the
+            community's choice. I believe in 30 years time, by 2050, we can make
+            it happen. Tesla took less than 20 years to be worth more than every
+            large car company in the world, combined. Technology is consistently
+            underestimated due to our relatively poor understanding of
+            exponential growth.
+          </p>
+          <p>
+            So, there you have it. That's the minimalist, hopefully not too
+            technical explanation of Nature Coin's vision. I hope that I've
+            given you new hope for a better world. I hope that you will join our
+            community. Let's leave a dent in the universe.
           </p>
           <blockquote>
             “And yet a robust movement responding to the climate crisis is not
@@ -359,75 +365,82 @@ export default function Home() {
               <cite>- This Changes Everything, Naomi Klein</cite>
             </footer>
           </blockquote>
+          <blockquote>
+            “If you permit us, we'd like to change the world.”
+            <footer>
+              <cite>- Charles Hoskinson</cite>
+            </footer>
+          </blockquote>
           <h2>References</h2>
           <ol>
             <li>
-              Alex Shoumatoff is the editor of Dispatches from The Vanishing
-              World, Shoumatoff&nbsp;→, M., Schmitz, O., Schmitz, O., Langlois,
-              J., Langlois, J., . . . Kolbert, E. (n.d.). Vanishing borneo:
-              Saving one of the world's last great places. Retrieved February
-              20, 2021, from{" "}
-              <a href="https://e360.yale.edu/features/vanishing-borneo-saving-one-of-worlds-last-great-places-palm-oil">
-                https://e360.yale.edu/features/vanishing-borneo-saving-one-of-worlds-last-great-places-palm-oil
+              Roser, M. (2013, December 5). <i>Income Inequality.</i> Our World
+              in Data.{" "}
+              <a href="https://ourworldindata.org/income-inequality#inequality-in-the-us-has-been-growing-substantially-in-recent-decades">
+                https://ourworldindata.org/income-inequality#inequality-in-the-us-has-been-growing-substantially-in-recent-decades
               </a>
             </li>
             <li>
-              Suza 11.19.2019, W., Cataneo 11.04.2020, E., &amp; Farah
-              03.27.2020, T. (2019, November 19). As tropical RAINFORESTS
-              disappear, so do potential Medicine Reservoirs. Retrieved February
-              20, 2021, from{" "}
-              <a href="https://undark.org/2019/11/19/tropical-rainforest-disappear-potential-medicine-reservoirs/">
-                https://undark.org/2019/11/19/tropical-rainforest-disappear-potential-medicine-reservoirs/
+              Powell, N. (2018, November 5).{" "}
+              <i>
+                Millennial housing crisis? Turns out, it’s real and worse than
+                you thought.
+              </i>{" "}
+              Financialpost.{" "}
+              <a href="https://financialpost.com/real-estate/millennial-housing-crisis-turns-out-its-real-and-worse-than-you-thought">
+                https://financialpost.com/real-estate/millennial-housing-crisis-turns-out-its-real-and-worse-than-you-thought
               </a>
             </li>
             <li>
-              GD. Shanks, M., M. Mishra, V., MA. Phillips, J., J. Okombo, K.,
-              EA. Ashley, A., AE. Williamson, P., . . . MR. Luth, P. (1970,
-              January 01). The past, present and future of anti-malarial
-              medicines. Retrieved February 20, 2021, from{" "}
-              <a href="https://malariajournal.biomedcentral.com/articles/10.1186/s12936-019-2724-z">
-                https://malariajournal.biomedcentral.com/articles/10.1186/s12936-019-2724-z
+              Ritchie, H. (2020, May 11).{" "}
+              <i>CO2 and Greenhouse Gas Emissions.</i> Our World in Data.{" "}
+              <a href="https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions#atmospheric-concentrations-of-co2-continue-to-rise">
+                https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions#atmospheric-concentrations-of-co2-continue-to-rise
               </a>
             </li>
             <li>
-              Prakash, A., &amp; Baskaran, R. (2018, September). Acerola, an
-              untapped FUNCTIONAL Superfruit: A review on LATEST FRONTIERS.
-              Retrieved February 20, 2021, from{" "}
-              <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6098779/">
-                https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6098779/
+              Naudé, W.{" "}
+              <i>
+                The Decline in Entrepreneurship in the West: Is Complexity
+                Ossifying the Economy?
+              </i>{" "}
+              (2019, September). Iza.{" "}
+              <a href="https://www.iza.org/publications/dp/12602/the-decline-in-entrepreneurship-in-the-west-is-complexity-ossifying-the-economy">
+                https://www.iza.org/publications/dp/12602/the-decline-in-entrepreneurship-in-the-west-is-complexity-ossifying-the-economy
               </a>
             </li>
             <li>
-              Gavamukulya, Y., Abou-Elella, F., Wamunyokoli, F., &amp;
-              AEl-Shemy, H. (2014, October 11). Phytochemical screening,
-              ANTI-OXIDANT activity and in vitro Anticancer potential OF
-              Ethanolic and water leaves extracts OF annona muricata (Graviola).
-              Retrieved February 20, 2021, from{" "}
-              <a href="https://www.sciencedirect.com/science/article/pii/S1995764514602583">
-                https://www.sciencedirect.com/science/article/pii/S1995764514602583
+              <i>CIRP Freshman Survey – HERI.</i> (2021). UCLA.{" "}
+              <a href="https://heri.ucla.edu/cirp-freshman-survey/">
+                https://heri.ucla.edu/cirp-freshman-survey/
               </a>
             </li>
             <li>
-              Christy, B. (2021, February 10). Inside the dark world of the
-              rhino horn trade. Retrieved February 20, 2021, from{" "}
-              <a href="https://www.nationalgeographic.com/magazine/article/dark-world-of-the-rhino-horn-trade">
-                ttps://www.nationalgeographic.com/magazine/article/dark-world-of-the-rhino-horn-trade
+              Gilbert, J. C. (2011, October 27).{" "}
+              <i>What eBay’s Court Fight With Craigslist Reveals.</i> Forbes.{" "}
+              <a href="https://www.forbes.com/sites/csr/2010/09/21/what-ebays-court-fight-with-craigslist-reveals/?sh=25fb26ed2dd8">
+                https://www.forbes.com/sites/csr/2010/09/21/what-ebays-court-fight-with-craigslist-reveals/?sh=25fb26ed2dd8
+              </a>
+            </li>
+            <li>
+              <i>Payment For Order Flow (PFOF).</i> (2021). Investopedia.{" "}
+              <a href="https://www.investopedia.com/terms/p/paymentoforderflow.asp">
+                https://www.investopedia.com/terms/p/paymentoforderflow.asp
+              </a>
+            </li>
+            <li>
+              Carrington, D. (2021, March 25).{" "}
+              <i>
+                Big banks’ trillion-dollar finance for fossil fuels ‘shocking’.
+              </i>{" "}
+              The Guardian.{" "}
+              <a href="https://www.theguardian.com/environment/2021/mar/24/big-banks-trillion-dollar-finance-for-fossil-fuels-shocking-says-report">
+                https://www.theguardian.com/environment/2021/mar/24/big-banks-trillion-dollar-finance-for-fossil-fuels-shocking-says-report
               </a>
             </li>
           </ol>
         </div>
       </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-        </a>
-      </footer>
 
       <style jsx>{`
         blockquote {
@@ -436,10 +449,23 @@ export default function Home() {
           color: #f96f5d;
           line-height: 48px;
         }
+
+        @media only screen and (max-width: 600px) {
+          blockquote {
+            font-size: 24px;
+            line-height: 36px;
+            margin: 5vw;
+          }
+        }
         .container {
-          width: 66.6%;
+          width: 50%;
           margin: 0 auto;
           min-height: 100vh;
+        }
+        @media only screen and (max-width: 600px) {
+          .container {
+            width: 90%;
+          }
         }
         p {
           font-size: 16px;
@@ -450,6 +476,12 @@ export default function Home() {
         ol {
           font-size: 16px;
           line-height: 28px;
+        }
+        li {
+          word-wrap: break-word;
+        }
+        .text-align-center {
+          text-align: center;
         }
         a {
           color: #f96f5d;
@@ -464,7 +496,6 @@ export default function Home() {
           line-height: 0;
         }
         main {
-          padding: 5rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
