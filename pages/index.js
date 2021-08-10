@@ -10,22 +10,29 @@ export default function Home() {
 
       <main>
         <div className="container">
-          <h1 className="text-align-center">Nature Coin Whitepaper</h1>
+          <h1 className="text-align-center">Nature Coin</h1>
+          <p className="text-align-center">
+            <i>
+              A blockchain based financial system that incentivizes solutions to
+              social inequality and climate change
+            </i>
+          </p>
+          <p className="text-align-center">Blakelock Brown • August 9, 2021</p>
+          <img src="solarpunk/DGJQT92XoAQ_d0N.jpeg" style={{ width: "100%" }} />
           <h2>Introduction</h2>
           <p>
             Whenever I read about blockchains, I often feel as if I'm being
             tossed into the lecture of a monotonic professor teaching bored
-            students. Byzantine fault tolerance, consensus protocols, nakamoto
-            coefficients, there's no wonder why most of the public thinks we're
-            crazy. There's certainly a time and a place to technically explain
-            cryptocurrencies, but for Nature Coin to achieve it's full potential
-            it's paramount that we appeal to a broad audience. Thus, I hope you
-            don't mind if I'm a bit more personal and engaging throughout this
-            paper.
+            students. Byzantine fault tolerance, consensus protocols, Nakamoto
+            coefficients, ... no wonder people don't want to hear us talk about
+            crypto! Today I want to talk about real world problems. I want to
+            talk about how blockchain technology is not just solving computer
+            science problems, but actually providing new solutions to our most
+            dire issues.
           </p>
           <p>
-            I'd like to set the stage for our project by calling attention to
-            the following trends:
+            I'd like to set the stage for our project by calling your attention
+            to the following trends:
           </p>
           <ul>
             <li>
@@ -85,66 +92,265 @@ export default function Home() {
             <i>is not</i> a silver bullet to all of our issues. This of course
             begs the question, is there a system in which we can enjoy the
             upsides of capitalism without the downsides? This is the underlying
-            motivation behind Nature Coin. We'd like to eliminate climate
-            change, alleviate social inequality and assist entrepreneurs while
-            maintaining our opportunities and freedom of the current system.
-          </p>
-          <blockquote>
-            “If you permit us, we'd like to change the world.”
-            <footer>
-              <cite>- Charles Hoskinson</cite>
-            </footer>
-          </blockquote>
-          <p>To begin logically reasoning about such a system, </p>
-          <p>
-            One way to logically propose a new economic model is by following
-            our history. The earliest known form of economic organization that I
-            found during my research for Nature Coin is known as a "Palace
-            economy", in which a central administration completely controls is
-            known Feudalism flourished in Medieval Europe between the 9th and
-            15th centuries
+            motivation behind Nature Coin.
           </p>
           <p>
-            I'm referring to value in the monetary sense of the word. I'll let
-            you think about it for a moment. It's tricky isn't it, to define
-            such an abstract term? I did what any millennial these days would
-            do, and I just asked Google.
-          </p>
-          <blockquote>
-            Value is the <i>regard</i> that something is held to deserve; the
-            importance, worth, or usefulness of something.
-          </blockquote>
-          <p>
-            In other words, value is completely made up! The things that you and
-            I regard as valuable could be completely different.
+            To propose a new economic model, we must first understand the
+            mechanisms of our existing one. The underlying incentive structure
+            in capitalism is of course, to earn capital. This mindset of
+            financial maximization has taken over the world. In 1966, a survey
+            of U.S college freshmen found that only about 44 precent of them
+            said that making a lot of money was "very important" or "essential".
+            By 2013, that figure had jumped to 82 percent.
+            <sup>
+              <a href="https://heri.ucla.edu/cirp-freshman-survey/">5</a>
+            </sup>
           </p>
           <p>
-            Our vision behind Nature Coin is to build financial systems that
-            ameliorate society and revitalize planet Earth.
+            It's not just individuals, our companies are also trying to rake in
+            the dough. In fact, they're legally obligated to do so. “Directors
+            of a for-profit Delaware corporation cannot deploy a [policy] to
+            defend a business strategy that openly eschews stockholder wealth
+            maximization - at least not consistent with the directors' fiduciary
+            duties under Delaware law.”
+            <sup>
+              <a href="https://www.forbes.com/sites/csr/2010/09/21/what-ebays-court-fight-with-craigslist-reveals/?sh=25fb26ed2dd8">
+                6
+              </a>
+            </sup>{" "}
+            More than 50% of publicly traded companies have chosen Delaware as
+            their home.
           </p>
           <p>
-            We envision creating an international stock market that is 10x
-            better than any existing exchange. We are not going to do this by
-            taking existing companies on the New York stock exchange and just
-            turning them into digital assets. Rather, we want to re-think the
-            entire purpose of trading securities.
+            What's the significance of all this? We've decided as a society that
+            the point of life is to maximize financial wealth. Oil gets
+            extracted irregardless of the environmental damage. Exorbitant
+            prices are charged for healthcare. Social media algorithms keep you
+            engaged to show you as many ads as possible. Our potential for a
+            more generous, moral, or fair society is limited by the dominance of
+            money in everything that we do.
           </p>
           <p>
-            In addition, we propose a treasury system to fund environmental and
-            social projects on a global scale.
+            Nature Coin represents an idea. The idea that our current definition
+            of value can take on a much broader meaning. Furthermore, our
+            collective capital can be used as an instrument of change to build
+            the future that we want to live in. In essence, our existing
+            petrodollars can be replaced by naturecoins.
           </p>
-          <h3>Capitalism</h3>
+          <p>
+            I'm not suggesting we should abolish capitalism. I'm not a
+            communist! However, I believe we can tune the incentives in
+            capitalism to reward social and environmental progress in addition
+            to productivity. To do so, we need to change the very heart of
+            capitalism: the stock market.
+          </p>
+          <h2>Re-inventing the stock market</h2>
+          <p>
+            The biggest stock market in the world is the New York Stock Exchange
+            with a market capitalization of over US$30 trillion in securities.
+            Yet despite it's absurd size, it's remained relatively stagnant from
+            a technological standpoint. Books have been written on how to make
+            money in the stock market, but as for the stock market itself? Every
+            exciting upgrade to it's system is summarized in under 60 bullet
+            points on a Wikipedia page.
+            <sup>
+              <a href="https://en.wikipedia.org/wiki/New_York_Stock_Exchange#Timeline">
+                7
+              </a>
+            </sup>
+          </p>
+          <p>
+            The potential for innovation here is immense. We intend to create
+            our own stock exchange, known as the Nature Coin Exchange which will
+            be 10x better than any stock market in existence today.
+          </p>
+          <p>
+            How are we going to build such an exchange? We can just take
+            existing companies and tokenize their shares, right? Uh, no. We can
+            do much better than listing for-profit Delaware corporations which,
+            as mentioned earlier, are legally obligated to pursue profits above
+            all else.
+          </p>
+          <p>
+            In 2010 there was corporate law breakthrough when Maryland became
+            the first U.S state to introduce the concept of a{" "}
+            <a href="https://en.wikipedia.org/wiki/Benefit_corporation">
+              benefit corporation
+            </a>
+            , or B corporation for short. The difference between a traditional
+            for-profit C corporation and a B corporation is subtle, yet
+            powerful. A B corporation allows a business to include social and
+            environmental goals in addition to profit as it's legally defined
+            goals. This means that B corporations cannot be sued by their
+            shareholders for pursuing activities outside of financial
+            maximization. In other words, it completely changes the game. If you
+            have time I'd encourage you to watch this{" "}
+            <a href="https://www.youtube.com/watch?v=mGnz-w9p5FU&ab_channel=TEDxTalks">
+              20-minute TED talk
+            </a>{" "}
+            from Jay Coen Gilbert, the founder of B Lab which certifies B
+            corporations.
+          </p>
+          <p>
+            We intend for the Nature Coin Exchange to host B corporations
+            exclusively. In doing so, we can reward impactful businesses like
+            Patagonia and Kickstarter which are not only making a pretty penny,
+            but also providing for their employees, customers and the
+            environment. We'll be able to provide liquidity for smaller
+            companies who need additional capital to achieve their ambitious
+            goals. We can convince the next generation of entrepeneurs to
+            accomplish more than just filling the pockets of their largest
+            shareholders.
+          </p>
+          <p>
+            The businesses listed on the Nature Coin Exchange are going to
+            kick-ass. And that's not all. The Nature Coin Exchange will be the
+            first decentralized stock market of it's kind to host real,
+            non-synthetic securities. Here are some of the benefits:
+          </p>
+          <ol>
+            <li>
+              Trading will be open to the entire world, rather than requiring an
+              American investment account or being restricted to cross-listed
+              securities.
+            </li>
+            <li>
+              Companies like Robinhood won't be able to sell your data to hedge
+              funds for profit.
+              <sup>
+                <a href="https://www.investopedia.com/terms/p/paymentoforderflow.asp">
+                  7
+                </a>
+              </sup>
+            </li>
+            <li>
+              You'll be in control of your own assets, rather than having your
+              spare cash loaned out to fossil fuel companies while you're not
+              using it.
+              <sup>
+                <a href="https://www.theguardian.com/environment/2021/mar/24/big-banks-trillion-dollar-finance-for-fossil-fuels-shocking-says-report">
+                  8
+                </a>
+              </sup>
+            </li>
 
+            <li>
+              You'll be able to send stocks to your friends as gifts or as a
+              form of payment.
+            </li>
+            <li>
+              Markets will be online 24/7 instead of closing on holidays,
+              weekends, before 9 and after 5.
+            </li>
+            <li>Rules of the exchange will be democratically determined.</li>
+            <li>The exchange itself will be programmable.</li>
+          </ol>
           <p>
-            This newfound faith in privatization has spread to become the global
-            economic phenomenon of the 1990s. Throughout the world, governments
-            are turning over to private managers control of everything from
-            electrical utilities to prisons, from railroads to education.
+            I'd like to expand on the last two points. First, the Nature Coin
+            Exchange will be democratic with a voting mechanism to determine the
+            rules. In the crypto world this is known as a decentralized
+            autonomous organization, or a DAO for short. The more naturecoin you
+            own, the more voting power you have to determine the rules. One
+            concern with such a system is that influential actors might attempt
+            to change the rules to their own benefit, but game theory tells us
+            that it would be foolish to do so because this would likely decrease
+            the price of naturecoin, and thus their own wealth. There are
+            several other ways of preventing attacks on the network which I'll
+            discuss at another time.
           </p>
-          <p>What do all of these have in common? </p>
-          <p>In 1782, a extraordinary event occured. </p>
-          <p>Part 2: Nature Coin - A New Economy</p>
-          <p>Part 3: Why This Changes Everything</p>
+          <p>
+            Democratically determining the rules opens up a world of endless
+            possibilities. For example, we could vote to give companies more
+            time between earnings reports to encourage them to place a smaller
+            empthasis on near-term profits. Report requirements themselves could
+            be voted on. Would you like to know the salary ratio between a
+            company's CEO and their lowest paid employee? What about the
+            company's carbon footprint? Or who their largest shareholders are?
+            By forcing corporations to be more transparent, we the people can
+            decide what type of corporate behavior we want to reward. If we
+            invest wisely, the game will no longer be purely financial.
+          </p>
+          <p>
+            Progammability gives us some exciting new options as well. Index
+            funds can be automatically updated to include or exclude companies
+            based on a set of rules. There could be restrictions on your digital
+            wallet to prevent fraud, for example, if you want to withdraw more
+            than a few thousand dollars your friend Sally needs to sign off on
+            the transaction. A billionaire tax? We could make it happen.
+          </p>
+          <p>
+            Another programmable aspect of a cryptocurrency is inflation.
+            Bitcoin is famous for it's predetermined supply logic in which the
+            amount of new bitcoin mined decreases by half every four years. With
+            Nature Coin, we're going to set our inflation at an annual constant
+            rate of 2%. Why? The government has{" "}
+            <a href="https://medium.com/the-ascent/you-are-being-lied-to-about-inflation-it-hasnt-been-2-for-30-years-here-s-proof-f62c6aa0efa9">
+              lied about a 2% inflation rate
+            </a>{" "}
+            for years. YEARS! We intend to replace the current system with one
+            that's honest. Our inflation will be split between two digital
+            wallets, one which will fund development of the project itself and
+            the other for a novel philanthropic effort which I have yet to
+            introduce.
+          </p>
+          <h2>A decentralized hive mind to fight climate change</h2>
+          <p>
+            Climate change is pervasive. There is no silver bullet that will
+            save us from the severe natural disasters that are already here, and
+            are growing more frequent and more severe. We cannot place all of
+            the blame on fossil fuel companies. Afterall, we are the ones who
+            drive cars, consume plastics, use electricity and heat our buildings
+            creating a demand that is never satisfied.
+          </p>
+          <p>
+            If we truly want to stop the climate crisis, it's going to require
+            all of us. To modify our way of living, to consume less, to spend
+            more for sustainable products, to be slightly more inefficient and
+            use less energy. Nature Coin is not only an economic system, but an
+            ideology which ushers humanity into a new era of societal behavior.
+            If you desire what I desire, which is a healthier and more equitable
+            planet, we are on the same team. The second pillar to Nature Coin is
+            simply a system that allows us to work together.
+          </p>
+          <p>
+            The system that I'm describing is a community controlled treasury
+            for social and environmental projects. Here's how it will work. The
+            treasury will be funded through a 1% annual inflation rate of Nature
+            Coin. Members of the community can make proposals for funding -
+            starting new businesses, donating to non-profits, lobbying
+            politicians, etc. Funding will occur in rounds, during which we can
+            all vote for our favorite proposals, and afterwards the most popular
+            ones will be funded. The only limitation of such a system is the
+            amount of funding available and the creativity of the Nature Coin
+            community. You could imagine, with enough capital, we could fund new
+            public transit systems! We could negotiate a deal with the
+            construction company such that every citizen who buys a train ticket
+            would be contributing a portion of their fare back to Nature Coin
+            treasury, allowing us to re-invest in new projects.
+          </p>
+          <p>
+            I personally find so much beauty in coupling this system alongside
+            the Nature Coin Exchange. Firstly, many of us feel hopeless right
+            now against preventing climate change as it's such an enormous and
+            systematic problem. If Nature Coin succeeds, we'll have a network in
+            which anyone in the world can participate, propose and vote for
+            solutions. The key insight here is that individually we are
+            powerless, but collectively we are unstoppable. Second, by funding
+            the treasury through the inflation of Nature Coin, we ensure that
+            growth of the economy is directly correlated to an increase in
+            funding for environmental projects. The bigger we get, the more
+            positive impact we can have in the world.
+          </p>
+          <p>
+            Consider again the size of the New York Stock Exchange, US$30
+            trillion in assets. Now imagine hypothetically that Nature Coin
+            eventually reached the same scale. With an annual inflation rate of
+            1% rate we would have US$300 billion, per year, to put towards
+            projects of the community's choice. I believe in 30 years time, by
+            2050, we can make it happen. Tesla took less than 20 years to be
+            worth more than every large car company in the world, combined.
+            Never underestimate the speed of new technology.
+          </p>
           <blockquote>
             “And yet a robust movement responding to the climate crisis is not
             emerging fast enough. Why? Why aren’t we, as a species, rising to
