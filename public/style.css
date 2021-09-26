@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  background-color: #222;
+  color: #fafafa;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Darker Grotesque";
+  font-size: 64px;
+  margin: 15px;
+  letter-spacing: 4px;
+}
+
+p {
+  font-family: "Inter";
+  line-height: 150%;
+}
+
+.container {
+  top: 30%;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.font-awesome {
+  font-size: 32px;
+  color: #fafafa;
+  margin: 0 10px;
+}
