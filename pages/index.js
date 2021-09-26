@@ -10,7 +10,7 @@ export default function Home() {
 
       <main>
         <div className="container">
-          <h1 className="text-align-center">Nature Coin</h1>
+          <h1 className="text-align-center">Nature Coi22n</h1>
           <p className="text-align-center">
             <i>
               A blockchain based financial system that incentivizes solutions to
