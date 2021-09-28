@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "pm2 restart ecosystem.config.js --env production"
+    "start": "pm2 restart ecosystem.config.js --env production",
+    "export": "next export"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",

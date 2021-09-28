@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 import Head from "next/head";
 import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 import "../public/style.css";
-// import "@fortawesome/fontawesome-svg-core/styles.css";
-// import { config } from "@fortawesome/fontawesome-svg-core";
-// config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatically since it's being imported above
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatically since it's being imported above
 
 export default function MyApp(props) {
   const { Component, pageProps } = props;
