@@ -26,8 +26,24 @@ p {
   width: 100%;
 }
 
-.font-awesome {
+.social-media-link {
   font-size: 32px;
+}
+
+.font-awesome {
   color: #fafafa;
-  margin: 0 10px;
+  margin: 0 16px;
+}
+
+.animate-hover {
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -ms-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.animate-hover:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }

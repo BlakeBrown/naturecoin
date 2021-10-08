@@ -21,7 +21,7 @@ export default function Home() {
         <a
           href="https://twitter.com/NatureCoinDAO"
           target="_blank"
-          className="secondary-text"
+          className="social-media-link secondary-text"
         >
           <FontAwesomeIcon
             icon={faTwitter}
@@ -31,7 +31,7 @@ export default function Home() {
         <a
           href="https://discord.gg/njFRb6nz6N"
           target="_blank"
-          className="secondary-text"
+          className="social-media-link secondary-text"
         >
           <FontAwesomeIcon
             icon={faDiscord}
@@ -41,7 +41,7 @@ export default function Home() {
         <a
           href="https://www.instagram.com/NatureCoinDAO/"
           target="_blank"
-          className="secondary-text"
+          className="social-media-link secondary-text"
         >
           <FontAwesomeIcon
             icon={faInstagram}
@@ -51,7 +51,7 @@ export default function Home() {
         <a
           href="https://www.reddit.com/r/naturecoin/"
           target="_blank"
-          className="secondary-text"
+          className="social-media-link secondary-text"
         >
           <FontAwesomeIcon
             icon={faReddit}
