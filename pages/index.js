@@ -11,17 +11,19 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Nature Coin</title>
+        <title>The Climate Change DAO | Nature Coin</title>
       </Head>
-      <div class="container">
-        <h1>Nature Coin</h1>
-        <p>The climate change DAO. Coming soon to the Cardano blockchain.</p>
+      <div className="container wip">
+        <h1 className="color-primary">Nature Coin</h1>
+        <p className="color-secondary">
+          The climate change DAO. Coming soon to the Cardano blockchain.
+        </p>
         <br />
         <br />
         <a
           href="https://twitter.com/NatureCoinDAO"
           target="_blank"
-          className="social-media-link secondary-text"
+          className="social-media-link color-primary"
         >
           <FontAwesomeIcon
             icon={faTwitter}
@@ -31,7 +33,7 @@ export default function Home() {
         <a
           href="https://discord.gg/njFRb6nz6N"
           target="_blank"
-          className="social-media-link secondary-text"
+          className="social-media-link color-primary"
         >
           <FontAwesomeIcon
             icon={faDiscord}
@@ -41,7 +43,7 @@ export default function Home() {
         <a
           href="https://www.instagram.com/NatureCoinDAO/"
           target="_blank"
-          className="social-media-link secondary-text"
+          className="social-media-link color-primary"
         >
           <FontAwesomeIcon
             icon={faInstagram}
@@ -51,7 +53,7 @@ export default function Home() {
         <a
           href="https://www.reddit.com/r/naturecoin/"
           target="_blank"
-          className="social-media-link secondary-text"
+          className="social-media-link color-primary"
         >
           <FontAwesomeIcon
             icon={faReddit}
